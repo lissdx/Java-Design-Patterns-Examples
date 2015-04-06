@@ -34,3 +34,16 @@ and provide a global point of access to it.
 * Encapsulated "just-in-time initialization"  
 or "initialization on first use".
 
+### Command Design Pattern
+* Encapsulate a request as an object, thereby letting you  
+parameterize clients with different requests, queue or log  
+requests, and support undoable operations.
+* Promote "invocation of a method on an object" to full object status
+* An object-oriented callback
+
+### Adapter Design Pattern
+* Convert the interface of a class into another interface clients expect.  
+Adapter lets classes work together that couldn't otherwise because of  
+incompatible interfaces.
+* Wrap an existing class with a new interface.
+* Impedance match an old component to a new system
