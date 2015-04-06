@@ -48,4 +48,4 @@ incompatible interfaces.
 * Wrap an existing class with a new interface.
 * Impedance match an old component to a new system
 
-![alt tag](https://github.com/lissdx/Java-Design-Patterns-Examples/blob/master/img/ptt.png)
+![alt tag](https://raw.githubusercontent.com/lissdx/Java-Design-Patterns-Examples/master/img/ptt.png)
