@@ -47,3 +47,5 @@ Adapter lets classes work together that couldn't otherwise because of
 incompatible interfaces.
 * Wrap an existing class with a new interface.
 * Impedance match an old component to a new system
+
+![alt tag](https://cloud.githubusercontent.com/assets/3389608/7001263/f200b2fa-dc3d-11e4-90c7-aa48483c7b1a.png)
