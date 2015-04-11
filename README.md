@@ -54,3 +54,7 @@ incompatible interfaces.
 * Impedance match an old component to a new system
 
 ![alt tag](https://raw.githubusercontent.com/lissdx/Java-Design-Patterns-Examples/master/img/ptt.png)
+
+### Facade Design Pattern
+* Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+* Wrap a complicated subsystem with a simpler interface.
