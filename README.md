@@ -1,6 +1,11 @@
 Resources:  
-[http://sourcemaking.com/design_patterns](http://sourcemaking.com/design_patterns)  
-Book: Head First Design Pattern
+
+ Links:
+ [http://sourcemaking.com/design_patterns](http://sourcemaking.com/design_patterns)  
+ [http://www.tutorialspoint.com/design_pattern/index.htm]http://www.tutorialspoint.com/design_pattern/index.htm
+
+ Book: 
+ Head First Design Pattern
 
 ## Java Design Patterns Examples
 
