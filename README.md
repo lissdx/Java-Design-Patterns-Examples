@@ -58,3 +58,12 @@ incompatible interfaces.
 ### Facade Design Pattern
 * Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
 * Wrap a complicated subsystem with a simpler interface.
+
+### Template Design Pattern
+In Template pattern, an abstract class exposes defined way(s)/template(s)  
+to execute its methods. Its subclasses can override the method implementation  
+as per need but the invocation is to be in the same way as defined by an  
+abstract class.  
+Base class declares algorithm 'placeholders', and derived classes  
+implement the placeholders.  
+This pattern comes under behavior pattern category.
