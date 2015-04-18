@@ -25,6 +25,10 @@ public class GumballMachineChain extends ChainAbstract {
         return result;
     }
 
+    public static int getGumBallCount() {
+        return gumBallCount;
+    }
+    
     public void refillGumBall( int gumBallCount ){
         if( gumBallCount >= 0 ){
             GumballMachineChain.gumBallCount = gumBallCount;

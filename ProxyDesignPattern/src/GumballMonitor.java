@@ -6,8 +6,10 @@ public class GumballMonitor {
         this.gumballMachine = gumballMachine;
     }
     
-    public GumballMachine getGumballMachine() {
-        return gumballMachine;
+    public void report() {
+        System.out.println("GumballMachine location  : [ " + this.gumballMachine.getLocation() +" ] " );
+        System.out.println("GumballMachine inventory : [ " + this.gumballMachine.getGumballCount() +" ] " );
+        System.out.println("GumballMachine location : [ " + this.gumballMachine.getSt +" ] " );
     }
     
     
