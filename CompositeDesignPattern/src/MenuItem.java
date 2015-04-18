@@ -1,4 +1,3 @@
-import java.util.Iterator;
 
 
 
@@ -36,17 +35,21 @@ public class MenuItem extends MenuComponent {
 		return price;
 	}
 
-	@Override
-	public void print() {
-		System.out.print(" " + getName() );
-		if( isVegetarian() ){
-			System.out.print(" " + "(V)" );
-		}
-		System.out.println(", " + getPrice() );
-		System.out.println("    -- " + getDescription() );
-	}
-
-	@Override
+    @Override
+    public String toString() {
+        StringBuffer strBuffer = new StringBuffer();
+        
+        strBuffer.append(" " + getName() );
+        if( isVegetarian() ){
+            strBuffer.append(" " + "(V)" );
+        }
+        strBuffer.append(", " + getPrice());
+        strBuffer.append("    -- " + getDescription());
+        return strBuffer.toString();
+    }
+    
+	@SuppressWarnings("unchecked")
+    @Override
 	public CompositeNullIterator createIterator() {
 		return new CompositeNullIterator();
 	}	

@@ -39,14 +39,17 @@ public class Menu extends MenuComponent {
 	}
 
 	@Override
-	public void print() {
-		System.out.print("\n" + getName());
-		System.out.println(", " + getDescription());
-		System.out.println("--------------------");
+	public String toString() {
+	    StringBuffer strBuffer = new StringBuffer();
+	    
+	    strBuffer.append("\n" + getName() );
+	    strBuffer.append(", " + getDescription());
+	    strBuffer.append("--------------------");
+        return strBuffer.toString();
 
-		for (MenuComponent menuComponent : this.menuComponents) {
-			menuComponent.print();
-		}
+//		for (MenuComponent menuComponent : this.menuComponents) {
+//			menuComponent.print();
+//		}
 	}
 
 	@SuppressWarnings("unchecked")
@@ -54,11 +57,5 @@ public class Menu extends MenuComponent {
 	public  CompositeIterator createIterator() {
 		return new CompositeIterator(menuComponents.iterator());
 	}
-	// public <T extends Iterator<MenuComponent>> T createIterator() {
-	// return (T) new CompositeIterator( menuComponents.iterator() );
-	// }
-
-	// public Iterator<? extends MenuComponent> T createIterator() {
-	// return new CompositeIterator( menuComponents.iterator() );
-	// }
+	
 }

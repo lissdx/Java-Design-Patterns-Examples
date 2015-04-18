@@ -38,9 +38,9 @@ public abstract class MenuComponent {
 		throw new UnsupportedOperationException();
 	}
 	
-	public void print() {
-		throw new UnsupportedOperationException();
-	}
+//	public void print() {
+//		throw new UnsupportedOperationException();
+//	}
 
 	public boolean isComposite() {
 		return isComposite;
