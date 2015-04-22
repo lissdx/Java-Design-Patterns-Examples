@@ -8,8 +8,8 @@ public class GumballMonitor {
     
     public void report() {
         System.out.println("GumballMachine location  : [ " + this.gumballMachine.getLocation() +" ] " );
-        System.out.println("GumballMachine inventory : [ " + this.gumballMachine.getGumballCount() +" ] " );
-        System.out.println("GumballMachine location : [ " + this.gumballMachine.getSt +" ] " );
+        //System.out.println("GumballMachine inventory : [ " + this.gumballMachine.getGumballCount() +" ] " );
+        System.out.println("GumballMachine Current State : [ " + this.gumballMachine.toString() +" ] " );
     }
     
     

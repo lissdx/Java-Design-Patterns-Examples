@@ -5,7 +5,7 @@ public class GumballMachine extends GumballMachineChain{
     private final String location;
     
     public GumballMachine( final String location, int gumballCount ) {
-        super( gumballCount )
+        super( gumballCount );
         this.location = location;
     }
 
@@ -14,7 +14,7 @@ public class GumballMachine extends GumballMachineChain{
     }
 
     public int getGumballCount() {
-        return super.;
+        return super.getGumBallCount();
     }
     
     
