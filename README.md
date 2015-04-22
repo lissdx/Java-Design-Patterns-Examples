@@ -79,6 +79,12 @@ This pattern comes under behavior pattern category.
  * "Directories contain entries, each of which could be a directory."  
 1-to-many "has a" up the "is a" hierarchy  
 
+### State Design Pattern
+ * Allow an object to alter its behavior when its internal state  
+ * changes. The object will appear to change its class.  
+ * An object-oriented state machine  
+wrapper + polymorphic wrappee + collaboration
+
 ### Template Design Pattern
  * Define the skeleton of an algorithm in an operation, deferring some steps to  
  client subclasses. Template Method lets subclasses redefine certain steps of an  
