@@ -79,6 +79,12 @@ This pattern comes under behavior pattern category.
  * "Directories contain entries, each of which could be a directory."  
 1-to-many "has a" up the "is a" hierarchy  
 
+### Template Design Pattern
+ * Define the skeleton of an algorithm in an operation, deferring some steps to  
+ client subclasses. Template Method lets subclasses redefine certain steps of an  
+ algorithm without changing the algorithm's structure.
+ * Base class declares algorithm 'placeholders', and derived classes implement the placeholders.
+ 
 ### Proxy Design Pattern
  * Provide a surrogate or placeholder for another object to control access to it.  
  * Use an extra level of indirection to support distributed, controlled, or intelligent access.  
