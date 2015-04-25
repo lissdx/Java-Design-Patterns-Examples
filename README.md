@@ -67,3 +67,32 @@ abstract class.
 Base class declares algorithm 'placeholders', and derived classes  
 implement the placeholders.  
 This pattern comes under behavior pattern category.
+
+### Iterator Design Pattern
+ * Provide a way to access the elements of an aggregate object sequentially without exposing  
+ its underlying representation.  
+
+### Composite Design Pattern
+ * Compose objects into tree structures to represent whole-part hierarchies. Composite lets clients treat  
+ individual objects and compositions of objects uniformly.
+ * Recursive composition
+ * "Directories contain entries, each of which could be a directory."  
+1-to-many "has a" up the "is a" hierarchy  
+
+### State Design Pattern
+ * Allow an object to alter its behavior when its internal state  
+ * changes. The object will appear to change its class.  
+ * An object-oriented state machine  
+wrapper + polymorphic wrappee + collaboration
+
+### Template Design Pattern
+ * Define the skeleton of an algorithm in an operation, deferring some steps to  
+ client subclasses. Template Method lets subclasses redefine certain steps of an  
+ algorithm without changing the algorithm's structure.
+ * Base class declares algorithm 'placeholders', and derived classes implement the  
+ placeholders.
+ 
+### Proxy Design Pattern
+ * Provide a surrogate or placeholder for another object to control access to it.  
+ * Use an extra level of indirection to support distributed, controlled, or intelligent access.  
+ * Add a wrapper and delegation to protect the real component from undue complexity.  
